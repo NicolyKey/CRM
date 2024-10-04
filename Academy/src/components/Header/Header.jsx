@@ -1,4 +1,6 @@
+
 import { useEffect, useState } from 'react';
+
 import logo from '../../assets/img/sapatos-de-academia.png';
 import './header.css'
 
@@ -13,7 +15,6 @@ function Header() {
 
   return (
     <nav className={`container ${sticky? 'dark-nav' : ''}`}>
-      
        <div className='logo'>
        <img className="imagem" src={logo} alt=""/> 
        <h1>GYM</h1>   
