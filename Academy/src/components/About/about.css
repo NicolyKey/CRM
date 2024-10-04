@@ -1,0 +1,20 @@
+.about {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.about-left {
+  width: 50%;
+  padding: 30px;
+  margin: 20px;
+}
+.about-left h1 {
+  margin-bottom: 20px;
+}
+.about-text p {
+  text-align: justify;
+}
+.about img {
+  border-radius: 10px;
+  object-fit: cover;
+}
